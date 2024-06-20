@@ -10,9 +10,10 @@ function repeatName(name) {
 
 // Your code here 
 
-// let repeatDaniel;
-// let repeatMark;
-// let repeatBeyonce;
+let repeatDaniel = repeatName("Daniel")
+let repeatMark = repeatName("Mark")
+let repeatBeyonce = repeatName("Beyonce")
+repeatBeyonce = "!!!" + repeatBeyonce + "!!!";
 
 // console.log(repeatDaniel);  // => "Daniel Daniel"
 // console.log(repeatMark);    // => "Mark Mark"
